@@ -10,7 +10,7 @@ const SkillCard = ({ title, description,  imageurl, experiences}) => {
       <h2 className="text-xl font-bold mb-2 text-gray-800 dark:text-white">{title}</h2>
       <p className="text-center mb-4 text-gray-600 dark:text-gray-300">{description}</p>
       <div className="mt-auto w-full">
-        <h3 className="text-lg text-center font-semibold mb-2 text-gray-800 dark:text-white">Experiences:</h3>
+        <h3 className="text-lg text-center font-semibold mb-2 text-gray-800 dark:text-white">Tools/Languages:</h3>
         <div className="flex flex-wrap justify-center">
           {experiences.map((exp, index) => (
             <div key={index} className="flex flex-col items-center mx-2 mb-2">
@@ -27,36 +27,8 @@ const SkillCard = ({ title, description,  imageurl, experiences}) => {
 const SkillsSection = () => {
   const skills = [
     {
-      title: "GIS Analysis",
-      description: "I can transform complex spatial data into visually stunning maps that reveal the hidden treasures of our Earth. Whether it's analyzing terrain, plotting geospatial patterns, or making sense of spatial data, I bring a sense of adventure and precision to every project. Who needs a fedora and a whip when you've got GIS?",
-      imageurl: "images/icons/location.png",
-      experiences: [
-        { 
-          name: "ArcGIS Pro",
-        },
-        { 
-          name: "QGIS",
-        },
-        { 
-          name: "Rockworks",
-        },
-        { 
-          name: "Georose",
-        },
-        { 
-          name: "Python",
-        },
-        { 
-          name: "Pandas",
-        },
-        { 
-          name: "SQL",
-        }
-      ]
-    },
-    {
-      title: "Data Analysis",
-      description: "I dive deep into data sets, uncovering trends, correlations, and anomalies that others might miss. From crunching numbers to crafting dashboards, I bring clarity to chaos and help businesses make data-driven decisions with confidence. Who knew number-crunching could be so exciting? Elementary, my dear Watson!",
+      title: "Data Analytics",
+      description: "Data holds the key to unlocking insights, and I specialize in transforming raw numbers into meaningful narratives. Using tools like Python, SQL, Excel, and Power BI, I analyze trends, identify patterns, and provide data-driven solutions that empower better decision-making. Whether it’s business intelligence, predictive modeling, or exploratory data analysis",
       imageurl: "images/icons/exploration.png",
       experiences: [
         { 
@@ -72,17 +44,51 @@ const SkillsSection = () => {
           name: "Python",
         },
         { 
+          name: "Sci-kit Learn",
+        },
+        { 
           name: "Matlibplot",
         },
         { 
           name: "SQL",
         },
       ]
-    }
+    },
+    {
+      title: "GIS Analysis",
+      description: "Location data is more than just points on a map—it tells a story. I specialize in GIS Analysis, using tools like ArcGIS, QGIS, and Google Earth to analyze spatial relationships, model geographic patterns, and create visually compelling maps. From environmental assessments to urban planning and infrastructure mapping, I turn geographic data into actionable intelligence.",
+      imageurl: "images/icons/location.png",
+      experiences: [
+        { 
+          name: "ArcGIS Pro",
+        },
+        { 
+          name: "QGIS",
+        },
+        { 
+          name: "Rockworks",
+        },
+        { 
+          name: "Georose",
+        },
+        { 
+          name: "Excel",
+        },
+        { 
+          name: "Python",
+        },
+        { 
+          name: "Pandas",
+        },
+        { 
+          name: "SQL",
+        }
+      ]
+    },
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id='id="projects"' className="container mx-auto px-4 py-8">
         <div className='border-gray-300 dark:border-gray-600 border-b-2 mb-8 pb-2'>
         <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-200">
             What I Do

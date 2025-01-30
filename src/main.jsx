@@ -12,10 +12,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
-        {/* <Route path="/ErrorPage" element={<Projects />} /> */}
+        <Route path="/ErrorPage" element={<Projects />} /> */}
       </Routes>
     </HashRouter>
   </React.StrictMode>

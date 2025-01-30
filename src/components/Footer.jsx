@@ -8,7 +8,7 @@ const Footer = () => {
           {/* About Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Hussaini Ahmed</h3>
-            <p className="mb-4">GIS and Data Analyst transforming raw data into actionable insights and stunning visualizations.</p>
+            <p className="mb-4">Bridging the gap between data and location, I transform raw information into actionable intelligence. Whether it's analytics or mapping, I help you see the bigger picture. Let’s connect and create something impactful! </p>
             <div className="flex space-x-4">
               {/* Social Media Icons */}
               <a href="#" className="hover:text-blue-200 transition-colors duration-300">
@@ -27,11 +27,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">Home</a></li>
-              <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">About</a></li>
               <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">Services</a></li>
-              <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">Portfolio</a></li>
-              <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">Contact</a></li>
+              <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">Projects</a></li>
+              <li><a href="#" className="hover:text-blue-200 transition-colors duration-300">Let's Connect on Linkedin</a></li>
             </ul>
           </div>
           

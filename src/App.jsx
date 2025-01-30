@@ -12,7 +12,7 @@ const App = () => {
     return localStorage.getItem('darkMode') === 'true';
   });
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState('gis');
+  const [activeTab, setActiveTab] = useState('data');
   
   useEffect(() => {
     if (isDarkMode) {
@@ -45,10 +45,9 @@ const App = () => {
           <h1 className="text-5xl font-bold text-gray-800 dark:text-gray-200 mb-6">
             Hello&#128075;, I'm Hussaini Ahmed
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-400 mb-2">
-            Your friendly neighborhood <span className="text-blue-500">Data Scientist, </span> 
-            currently navigating the rocky terrain of a geology degree at the Federal University of Technology, Minna.
-            With a strong passion for the oil and gas sector and its integration with machine learning, I combine analytical skills and domain expertise to uncover valuable insights. 
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-2"> 
+            I specialize in <span className="text-blue-500">Geospatial Data Science</span>, where Data Analytics meets GIS Analysis to uncover patterns, visualize trends, and drive informed decision-making. From analyzing complex datasets to crafting interactive maps, I transform raw data into powerful insights that tell compelling stories. 
+            Let’s harness the power of location intelligence and data-driven solutions together!
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">I leverage machine learning and data science to unearth patterns and trends that drive innovation. So, if you need someone to map out the 
             path to your next big discovery or transform complex datasets into actionable insights, you’ve come to the right place. Let's rock and roll! </p>
@@ -63,29 +62,29 @@ const App = () => {
         <div className="flex justify-center mb-4 space-x-0">
           <button
             className={`px-6 py-3 flex items-center ${
-              activeTab === 'gis'
-                ? 'bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:from-indigo-400 hover:via-indigo-500 hover:to-indigo-600 text-white px-5 py-2 shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out group'
-                : 'bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-200'
-            }`}
-            onClick={() => setActiveTab('gis')}
-          >
-           <img src={"images/icons/location.png"} alt={"Icon"} className="w-6 h-6"/>
-           <span className='px-2'>GIS Analysis Projects</span>
-          </button>
-          <button
-            className={`px-6 py-3 flex items-center ${
               activeTab === 'data'
                 ? 'bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:from-indigo-400 hover:via-indigo-500 hover:to-indigo-600 text-white px-5 py-2 shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out group'
                 : 'bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-200'
             }`}
             onClick={() => setActiveTab('data')}
           >
+           <img src={"images/icons/location.png"} alt={"Icon"} className="w-6 h-6"/>
+           <span className='px-2'>Data Analytics</span>
+          </button>
+          <button
+            className={`px-6 py-3 flex items-center ${
+              activeTab === 'gis'
+                ? 'bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:from-indigo-400 hover:via-indigo-500 hover:to-indigo-600 text-white px-5 py-2 shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out group'
+                : 'bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-200'
+            }`}
+            onClick={() => setActiveTab('gis')}
+          >
             <img src={"images/icons/exploration.png"} alt={"Icon"} className="w-6 h-6"/>
-            <span className='px-2'>Data Analysis Projects</span>
+            <span className='px-2'>GIS Analysis</span>
           </button>
         </div>
         <div className="mt-4">
-          {activeTab === 'gis' ? <RecentGis /> : <RecentData />}
+          {activeTab === 'data' ? <RecentData /> : <RecentGis />}
         </div>
       </div>
       <Footer />

@@ -1,10 +1,6 @@
 const navLinks = [
-  { href: "/experience", text: "Experience" },
-  { href: "/projects", text: "Projects" },
-  { href: "/resume", text: "Resume" },
-  { href: "/blog", text: "Blog" },
-  { href: "/awards", text: "Awards" },
-  { href: "/contact", text: "Contact" },
+  { href: "/", text: "Home" }, // Links to the Services section
+  { href: "/", text: "Download Resume" }, // Links to the Projects section  // Links to the Contact section
 ];
 
 export default navLinks;
