@@ -1,21 +1,21 @@
 const cardData = [
   {
-    title: "Navigating Reference Management Tools for Seamless Research",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum nemo, voluptatum ea libero, rerum ad ab? Odio, dicta dignissimos laudantium id autem aliquam iure quas",
-    imageUrl: "images/Projects/Location Map of Niger State.png",
-    tools: ["ArcGIS Pro", "QGIS", "Google Earth", "MapInfo", "GeoServer"]
-  },
-  {
-    title: "International Day of Women in Mining, Nigeria (IDWIMN)",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum nemo, voluptatum ea libero, rerum ad ab? Odio, dicta dignissimos laudantium id autem aliquam iure quas",
+    title: "Geologic Mapping: Unveiling Earth's Subsurface Structures",
+    description: "Visualizing subsurface structures and lithologies to uncover Earth's history. Explore geologic maps that reveal rock formations, faults, and stratigraphy with precision",
     imageUrl: "images/Projects/Geologic Map 1.jpg",
-    tools: ["ArcGIS Pro", "QGIS", "Google Earth", "MapInfo", "GeoServer"]
+    tools: ["ArcGIS Pro", "QGIS", "Google Earth", "MS Excel",]
   },
   {
-    title: "WIGE Professional Development Workshop II: Introduction to Python for Geoscience",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum nemo, voluptatum ea libero, rerum ad ab? Odio, dicta dignissimos laudantium id autem aliquam iure quas",
+    title: "Location Mapping: Navigating Geographic Data for Smart Decisions",
+    description: "Transforming raw geographic data into location maps. From site selection to spatial analysis, these maps provide insights for informed decision-making.",
     imageUrl: "images/Projects/Location Map of Niger State.png",
-    tools: ["ArcGIS Pro", "QGIS", "Google Earth", "MapInfo", "GeoServer"]
+    tools: ["ArcGIS Pro", "QGIS", "MS Excel", "Google Maps"]
+  },
+  {
+    title: "Topographic Mapping: Elevation Models for Terrain Visualization",
+    description: "Bringing terrain to life with detailed elevation models. These maps showcase landforms, slopes, and contours, essential for environmental planning and engineering.",
+    imageUrl: "images/Projects/Topographic Map.jpg",
+    tools: ["ArcGIS Pro", "QGIS", "Earth Explorer", "Living Atlas", ]
   }
 ];
 
