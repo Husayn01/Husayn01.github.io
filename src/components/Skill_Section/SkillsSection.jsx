@@ -44,10 +44,13 @@ const SkillsSection = () => {
           name: "Python",
         },
         { 
+          name: "Pandas",
+        },
+        { 
           name: "Sci-kit Learn",
         },
         { 
-          name: "Matlibplot",
+          name: "Matplotlib",
         },
         { 
           name: "SQL",
@@ -63,7 +66,13 @@ const SkillsSection = () => {
           name: "ArcGIS Pro",
         },
         { 
+          name: "ArcGIS Online",
+        },
+        { 
           name: "QGIS",
+        },
+        { 
+          name: "Google Earth",
         },
         { 
           name: "Rockworks",
