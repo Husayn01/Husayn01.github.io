@@ -1,5 +1,15 @@
 const cardData = [
   {
+    title: "100 Days of code - Angela Yu",
+    description:
+      "This project showcases an intensive 100-day Python course, mastering core programming concepts by building 100 unique projects. Gained hands-on experience in automation, web development, game development, data science, and machine learning.",
+    imageUrl: "images/Projects/Data/image.png",
+    tools: ["Python", "Pandas","Sci-kit Learn","Numpy", "Selenium"],
+    links: [
+      { url: "https://github.com/Husayn01/100-Days-of-Code", text: "Read More" }
+    ]
+  },
+  {
     title: "Olympic Games Data Analysis (1896–2004)",
     description:
       "This project explores historical Olympic Games data from 1896 to 2004 using Python and Pandas. It includes data cleaning, analysis, and visualization to uncover trends in athlete performance, medal distribution, and participation across different sports, countries, and years.",
