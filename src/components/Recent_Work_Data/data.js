@@ -1,5 +1,15 @@
 const cardData = [
   {
+    title: "Machine Learning for Insurance Data with Python and Scikit-Learn",
+    description:
+      "Analyzed insurance data to explore how age, BMI, and smoking habits affect medical charges. Performed data visualization, correlation analysis, and built linear regression models using Scikit-learn.",
+    imageUrl: "images/Projects/Data/insurance-ml.png",
+    tools: ["Python", "Pandas", "Plotly", "Seaborn", "Scikit-learn"],
+    links: [
+      { url: "https://colab.research.google.com/drive/1LA5-k4YJLFVtA3qvQ073qntqz_q0PMAo#scrollTo=Rk_F4yC7kaEP", text: "Read More" }
+    ]
+  },  
+  {
     title: "100 Days of code - Angela Yu",
     description:
       "This project showcases an intensive 100-day Python course, mastering core programming concepts by building 100 unique projects. Gained hands-on experience in automation, web development, game development, data science, and machine learning.",
