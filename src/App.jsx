@@ -46,11 +46,13 @@ const App = () => {
             Hello&#128075;, I'm Hussaini Ahmed
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-2"> 
-          I am Hussaini Ahmed, a <span className="text-blue-500">Geospatial Data Scientist</span> and an undergraduate Geology student at the Federal University of Technology, Minna. I specialize in the intersection of Data Analytics and GIS Analysis to uncover patterns, visualize trends, and drive informed decision-making. From analyzing complex datasets to crafting interactive maps, I transform raw data into powerful insights that tell compelling stories. 
-            Let’s harness the power of location intelligence and data-driven solutions together!
+Hey there! I’m Hussaini Ahmed — your friendly neighborhood Jack of all trades, 
+          master of some (still figuring out which, but having fun along the way).
           </p>
-          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">I leverage machine learning and data science to unearth patterns and trends that drive innovation. So, if you need someone to map out the 
-            path to your next big discovery or transform complex datasets into actionable insights, you’ve come to the right place. Let's rock and roll! </p>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">By day, I’m a  <span className="text-blue-500">Geospatial Data Scientist </span>
+            and an undergraduate Geology student at the Federal University of Technology, Minna. I’m not here to promise the world or make superficial pitches about “changing lives” (even though I lowkey want to). 
+            I’m just here to share ideas, embrace the chaos, and maybe build something cool along the way. If you're into data, maps, or just curious minds doing cool stuff—welcome 
+            to my corner of the web.</p>
           <SocialMedia />
         </main> 
       </div>
